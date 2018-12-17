@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\Ricardo Fujita\Desktop -I..\..\..\..\..\Users\Ricardo Fujita\Desktop\FKE_BATTERY -I..\..\..\..\..\Users\Ricardo Fujita\Desktop\FKE_BATTERY\cmsis_lib -I..\..\..\..\..\Users\Ricardo Fujita\Desktop\FKE_BATTERY\cmsis_lib\include -I..\..\..\..\..\Users\Ricardo Fujita\Desktop\FKE_BATTERY\cmsis_boot -I..\..\..\..\..\Users\Ricardo Fujita\Desktop\FKE_BATTERY\cmsis">
+      <target file="syscalls.o" lastModified="1675248eb4f">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1675244d7e0"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="1675248e8f2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="16752440416"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="1675248e619">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="16752443a1a"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="1675248f07e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="16752442605"/>
+      </target>
+      <target file="printf.o" lastModified="167524a3e27">
+         <source file="..\..\..\stdio\printf.c" lastModified="16752493ebc"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1675248ea66">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1675245ec1d"/>
+      </target>
+      <target file="FKE.o" lastModified="16782f53b52">
+         <source file="..\..\..\cmsis_lib\source\FKE.c" lastModified="167524b91b8"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1675248e0d8">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1675243f699"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="1675248dfd9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="16752444fa6"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="1675248de81">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="16752447df8"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="1675248ec3f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="16752441462"/>
+      </target>
+      <target file="main.o" lastModified="16782f5397d">
+         <source file="..\..\..\main.c" lastModified="16782f5343d"/>
+      </target>
+      <target file="matrix.o" lastModified="1675248ef11">
+         <source file="..\..\..\cmsis_lib\source\matrix.c" lastModified="167420cbe29"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1675248e483">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1675243f689"/>
+      </target>
+      <target file="misc.o" lastModified="1675248edaa">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="16752446689"/>
+      </target>
+   </processor>
+</history>

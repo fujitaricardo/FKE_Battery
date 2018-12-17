@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=FKE_BATTERY.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\FKE_BATTERY -TC:\CooCox\CoIDE\configuration\ProgramData\FKE_BATTERY/link.ld -g -L..\..\.. -lm">
+      <target file="FKE_BATTERY.elf" lastModified="16782f53ead">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="1675248de81"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="1675248dfd9"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1675248e0d8"/>
+         <source file="..\obj\main.o" lastModified="16782f5397d"/>
+         <source file="..\obj\FKE.o" lastModified="16782f53b52"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1675248e483"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="1675248e619"/>
+         <source file="..\obj\printf.o" lastModified="167524a3e27"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1675248e8f2"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1675248ea66"/>
+         <source file="..\obj\syscalls.o" lastModified="1675248eb4f"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="1675248ec3f"/>
+         <source file="..\obj\misc.o" lastModified="1675248edaa"/>
+         <source file="..\obj\matrix.o" lastModified="1675248ef11"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="1675248f07e"/>
+      </target>
+   </processor>
+</history>
